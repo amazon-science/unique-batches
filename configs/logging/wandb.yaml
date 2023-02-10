@@ -1,0 +1,3 @@
+logger: wandb
+project_name: "unique-batches"
+username: "caciolai"

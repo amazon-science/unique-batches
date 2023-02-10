@@ -1,0 +1,10 @@
+bert_based:
+  # embedder_checkpoint: ./checkpoints/distilbert-base-multilingual-cased/model
+  # encoder_checkpoint: ./checkpoints/distilbert-base-multilingual-cased/tokenizer
+  embedder_checkpoint: ./checkpoints/distilbert-base-cased/model
+  encoder_checkpoint: ./checkpoints/distilbert-base-cased/tokenizer
+  dropout_chance: 0.5
+  embedding_mode: last_3_hidden_states
+  frozen: true
+  hidden_size: 256
+  use_lstm: False

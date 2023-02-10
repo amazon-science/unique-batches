@@ -1,0 +1,23 @@
+defaults:
+  - main
+  - override data: debug
+  - override model: lstm_based
+  
+model:
+  lstm_based:
+    hidden_size: 64
+
+experiment:
+  deduplicator: 
+    - dummy
+    - datasetwise_unique
+    - datasetwise_weighted_unique
+    - datasetwise_logarithmic
+    - batchwise_unique
+    - batchwise_weighted_unique
+  experiment_name: debug
+  batch_size: 16
+  gpus: 0
+  workers: 0
+  max_epochs: 1
+  num_runs: 1

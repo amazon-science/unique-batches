@@ -1,0 +1,5 @@
+lstm_based:
+  hidden_size: 256
+  dropout_chance: 0.2
+  embed_dim: 50
+  num_layers: 2

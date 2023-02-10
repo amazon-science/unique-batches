@@ -1,0 +1,2 @@
+shuffle: true
+unique_mode: annotation # or text

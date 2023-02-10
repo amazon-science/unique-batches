@@ -1,0 +1,20 @@
+---
+defaults:
+- experiment: parameters_evolution
+- model:
+  - lstm_based
+- data: ??
+# - logging: wandb
+- logging: tensorboard
+
+gpus: 1
+workers: 0
+random_state: 0
+mixed_precision: False
+profiling: False
+model_checkpointing: False
+experiments_dir: ./experiments
+
+model:
+  lstm_based:
+    dropout_chance: 0.0

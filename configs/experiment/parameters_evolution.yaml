@@ -1,0 +1,12 @@
+defaults:
+  - default
+
+experiment_name: parameters_evolution
+num_runs: 1
+max_epochs: 30
+batch_size: 512
+early_stopping:
+  enabled: false
+log_params: true
+params_logs_per_epoch: 2
+deterministic: true

@@ -1,0 +1,5 @@
+cnn_based:  
+  embed_dim: 64
+  first_conv_dim: 256
+  second_conv_dim: 128
+  hidden_size: 512

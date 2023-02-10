@@ -1,0 +1,7 @@
+defaults:
+  - default
+
+experiment_name: 512_no_early_stopping
+batch_size: 512
+early_stopping:
+  enabled: false

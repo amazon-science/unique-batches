@@ -1,0 +1,16 @@
+---
+defaults:
+- experiment: 1024_early_stopping
+- model:
+  - bert_based
+- data: mit_restaurant_09
+# - logging: wandb
+- logging: tensorboard
+
+gpus: 1
+workers: 0
+random_state: 0
+mixed_precision: True
+profiling: False
+model_checkpointing: False
+experiments_dir: ./experiments

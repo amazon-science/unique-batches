@@ -1,0 +1,3 @@
+defaults:
+  - default
+dataset_path: ./datastore/mit_restaurant/duplicated_0.9.tsv

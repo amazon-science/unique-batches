@@ -1,0 +1,20 @@
+deduplicator: 
+  - dummy
+  - datasetwise_unique
+  - datasetwise_weighted_unique
+  - datasetwise_logarithmic
+  - batchwise_unique
+  - batchwise_weighted_unique
+max_epochs: 30
+num_runs: 5
+batch_size: 1024
+lr: 1.0E-3
+early_stopping:
+  enabled: false
+  monitor: "val/loss"
+  min_delta: 0.0
+  patience: 3
+  mode: "min"
+gradient_clip_val: 10.0
+log_params: false
+log_grads: false
