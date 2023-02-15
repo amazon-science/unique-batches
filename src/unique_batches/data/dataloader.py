@@ -1,3 +1,8 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.  
+
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
+
 from torch.utils.data import DataLoader
 
 from unique_batches.utils.framework import get_num_gpus
