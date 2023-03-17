@@ -3,7 +3,7 @@ pandas
 tqdm
 pyyaml
 hydra-core
-torch==1.11
+torch==1.13.1
 torchmetrics
 pytorch-lightning==1.8.6
 transformers==4.25
@@ -11,4 +11,3 @@ huggingface-hub
 scikit-learn
 # torch-scatter
 wandb
-protobuf<=3.20.1
