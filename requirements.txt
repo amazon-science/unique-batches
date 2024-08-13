@@ -3,7 +3,7 @@ pandas
 tqdm
 pyyaml
 hydra-core
-torch==1.13.1
+torch==2.2.0
 torchmetrics
 pytorch-lightning==1.8.6
 transformers==4.38.0
